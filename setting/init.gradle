@@ -1,0 +1,14 @@
+/* put in home/.gradle 
+init.gradle文件其实是Gradle的初始化脚本(Initialization Scripts)，也是运行时的全局配置。
+更详细的介绍请参阅 http://gradle.org/docs/current/userguide/init_scripts.html
+*/
+
+allprojects {
+    repositories {
+        mavenLocal()
+        maven {
+          name 'oschina'
+          url "http://maven.oschina.net/content/groups/public/"
+        }   
+    }
+}

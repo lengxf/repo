@@ -1,0 +1,28 @@
+[push]
+	default = simple
+[user]
+	email = lengxf@qq.com
+	name = lengxf
+	signingkey = 546E0E55
+[https]
+	proxy = 127.0.0.1:8087	
+[http]
+	proxy = 127.0.0.1:8087
+    sslCAinfo = /ssl/certs/CA.crt	
+[core]
+	ignorecase = false
+[color]
+	ui = true
+[alias]
+	s = status
+	c = checkout
+	b = branch
+[merge]
+	tool = meld
+[mergetool "meld"]
+	cmd = meld
+	trustExitCode = false
+[diff]
+	tool = meld
+[difftool "meld"]
+	cmd = d:/Android/Meld/meld.exe  $LOCAL $REMOTE 

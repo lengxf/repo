@@ -1,0 +1,13 @@
+[push]
+	default = simple
+[user]
+	email = lengxf@qq.com
+	name = lengxf
+[https]
+	proxy = 127.0.0.1:8087
+[http]
+	proxy = 127.0.0.1:8087
+    sslVerify = true
+    sslCAinfo = D:\\XX-Net-2.6.2\\data\\gae_proxy\\CA.crt
+   
+	
