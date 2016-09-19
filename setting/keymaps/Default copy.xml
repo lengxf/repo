@@ -1,0 +1,10 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateTODOToolWindow" />
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="CheckinProject" />
+  <action id="CodeCompletion">   
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
+</keymap>
